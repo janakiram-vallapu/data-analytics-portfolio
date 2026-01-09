@@ -28,3 +28,10 @@ This repository will include:
 
 ---
 
+## 🔗 Connect with me
+LinkedIn: https://www.linkedin.com/in/janakiram-vallapu-463b763a3  
+GitHub: https://github.com/janakiram-vallapu  
+
+---
+
+📌 *This repository will grow as my skills grow.*
