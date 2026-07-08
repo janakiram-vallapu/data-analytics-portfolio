@@ -32,7 +32,7 @@ To build strong fundamentals in data analytics and become job-ready through cont
 
 ## 📬 Contact
 - **GitHub**: https://github.com/janakiram-vallapu  
-- **LinkedIn**: www.linkedin.com/in/janaki-ram-vallapu-463b763a3
+- **LinkedIn**: www.linkedin.com/in/janakiramvallapu
 
 ---
 
