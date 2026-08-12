@@ -1,22 +1,29 @@
-# 🏥 Healthcare Analysis using SQL
+# 🏥 Healthcare Analysis using SQL & Power BI
 
 ## 📌 Project Overview
 
-The Healthcare Analysis project is an end-to-end SQL data analytics project designed to analyze hospital operations, patient demographics, doctor performance, admissions, and healthcare trends.
+Healthcare Analysis is an end-to-end data analytics project focused on understanding hospital operations, patient demographics, doctor workload, diagnosis patterns, admissions, and hospital performance.
 
-The project demonstrates SQL skills ranging from database creation and data cleaning to advanced business analytics using joins, subqueries, CTEs, window functions, and aggregate functions.
+The project uses **MySQL** for database creation, data cleaning, SQL analysis, and business problem solving, followed by **Power BI** for data modeling, DAX calculations, visualization, and interactive dashboard development.
+
+The project demonstrates the complete analytics workflow:
+
+**Data → Cleaning → SQL Analysis → Business Insights → Power BI Dashboard**
 
 ---
 
 ## 🎯 Objectives
 
 - Analyze patient demographics
-- Evaluate doctor performance
+- Evaluate doctor workload and performance
 - Study hospital admission patterns
-- Identify high-risk patients
-- Measure hospital stay duration
 - Analyze diagnosis trends
-- Calculate business KPIs for hospital management
+- Measure hospital stay duration
+- Analyze patient geographic distribution
+- Identify high-volume diagnoses
+- Monitor hospital admissions and discharges
+- Calculate key hospital performance KPIs
+- Build an interactive healthcare analytics dashboard
 
 ---
 
@@ -25,7 +32,7 @@ The project demonstrates SQL skills ranging from database creation and data clea
 The project uses four datasets:
 
 | Table | Description |
-|--------|-------------|
+|---|---|
 | Patients | Patient demographic information |
 | Admissions | Hospital admission records |
 | Doctors | Doctor information |
@@ -33,39 +40,69 @@ The project uses four datasets:
 
 ---
 
-## 🛠 Tools Used
+## 🛠 Tools & Technologies
 
-- MySQL
-- MySQL Workbench
-- SQL
+- **MySQL**
+- **MySQL Workbench**
+- **Power BI**
+- **DAX**
+- **Power Query**
+- **Excel / CSV**
+- **GitHub**
 
 ---
 
 ## 🧠 SQL Concepts Demonstrated
 
-- Database Creation
-- Data Cleaning
-- Constraints
-- Primary Keys
-- Foreign Keys
+### SQL Fundamentals
+
 - SELECT
 - WHERE
+- ORDER BY
 - GROUP BY
 - HAVING
-- ORDER BY
 - CASE
 - Aggregate Functions
+
+### Data Analysis
+
 - INNER JOIN
 - LEFT JOIN
 - Subqueries
+- EXISTS
+- UNION
+- UNION ALL
+
+### Advanced SQL
+
 - Common Table Expressions (CTEs)
 - Recursive CTEs
 - Window Functions
-- EXISTS
-- UNION
-- Query Optimization
+- ROW_NUMBER
+- RANK
+- DENSE_RANK
+- LAG
+- LEAD
+
+### Database & Optimization
+
+- Database Creation
+- Data Cleaning
+- Data Type Modification
+- Primary Keys
+- Foreign Keys
+- Constraints
 - Indexes
-- Business KPI Analysis
+- Query Optimization
+
+### Business Analytics
+
+- KPI calculations
+- Patient analysis
+- Doctor performance analysis
+- Admission analysis
+- Diagnosis analysis
+- Hospital performance analysis
 
 ---
 
@@ -89,74 +126,13 @@ Healthcare_Analysis/
 │   └── 06_Advanced_Business_Analysis.sql
 │
 ├── PowerBI/
+│   └── Healthcare_Analysis.pbix
 │
 ├── Images/
+│   ├── Executive_Overview.png
+│   ├── Patient_Analysis.png
+│   ├── Doctor_Performance.png
+│   ├── Diagnosis_Analysis.png
+│   └── Hospital_Insights.png
 │
 └── README.md
-```
-
----
-
-## 📊 Project Highlights
-
-### Database Setup
-
-- Created Healthcare Database
-- Imported datasets
-- Modified data types
-- Created Primary Keys
-- Created Foreign Keys
-
-### Data Cleaning
-
-- Converted date columns
-- Replaced missing allergy values
-- Validated records
-- Removed inconsistent values
-
-### SQL Analysis
-
-Completed:
-
-- 34 Assignment Questions
-- 20 Business Analysis Questions
-- 20 Advanced Business Analysis Questions
-
-Total:
-
-**74 SQL Business Problems**
-
----
-
-## 📈 Business Insights
-
-The analysis provides insights into:
-
-- Patient demographics
-- Province-wise patient distribution
-- Doctor workload
-- Average hospital stay
-- Readmission analysis
-- Doctor performance
-- High-risk diagnoses
-- Patient admission trends
-- Hospital performance KPIs
-
----
-
-## 🚀 Future Enhancements
-
-- Interactive Power BI Dashboard
-- Executive Dashboard
-- Patient Dashboard
-- Doctor Dashboard
-- Admission Dashboard
-
----
-
-## 👨‍💻 Author
-
-**Janakiram Vallapu**
-
-- LinkedIn: https://linkedin.com/in/janakiramvallapu
-- GitHub: https://github.com/janakiram-vallapu
