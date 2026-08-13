@@ -2,25 +2,24 @@
 
 ## Project Overview
 
-This project analyzes employee attrition data using Python, MySQL, and Power BI. The objective is to identify workforce segments associated with elevated attrition and present the findings through an interactive six-page dashboard.
+This project analyzes employee attrition using Python, SQL, and Power BI to identify workforce patterns that contribute to employee turnover. The analysis explores how factors such as age, overtime, pay, job role, and work-life balance influence attrition risk.
 
-The analysis covers 1,470 employee records and explores factors such as age, overtime, compensation, job role, department, and employee experience.
+The project uses 1,470 employee records and develops a multi-page Power BI dashboard to communicate the findings clearly to business stakeholders.
 
 ## Project Objectives
 
 - Clean and prepare employee data for analysis
-- Explore patterns associated with employee attrition
-- Perform SQL-based workforce analysis
-- Build meaningful DAX measures and KPIs
-- Create an interactive Power BI dashboard
-- Identify employee segments with a higher risk of attrition
+- Analyze attrition patterns by demographic and job factors
+- Use SQL to understand workforce trends and risk groups
+- Build DAX measures and KPIs in Power BI
+- Visualize attrition drivers and retention opportunities
+- Deliver actionable insights for workforce planning
 
 ## Tools and Technologies
 
 - Python
 - Pandas
-- MySQL
-- SQL
+- MySQL / SQL
 - Power BI
 - DAX
 - Power Query
@@ -29,89 +28,59 @@ The analysis covers 1,470 employee records and explores factors such as age, ove
 ## Project Workflow
 
 1. Imported and inspected the employee dataset in Python.
-2. Cleaned and validated 1,470 employee records using Pandas.
-3. Loaded the prepared data into MySQL for analysis.
-4. Wrote 25 SQL queries using:
-   - Conditional aggregation
-   - Subqueries
-   - Common Table Expressions (CTEs)
-   - Window functions
-   - Ranking functions
-5. Created DAX measures and KPIs in Power BI.
-6. Built a six-page interactive dashboard.
-7. Analyzed attrition, compensation, employee experience, and high-risk workforce segments.
+2. Cleaned and validated the records using Pandas.
+3. Prepared the dataset for SQL analysis.
+4. Ran SQL queries for demographic, compensation, and experience analysis.
+5. Built Power BI measures and KPIs.
+6. Designed an interactive dashboard with multiple views.
+7. Identified high-risk employee segments and retention opportunities.
 
-## Dashboard Pages
+## Key Insights
 
-The Power BI report contains six interactive pages covering:
-
-1. Attrition overview
-2. Employee demographics
-3. Compensation analysis
-4. Job role and department analysis
-5. Employee experience analysis
-6. High-risk employee segments
-
-## Key Insight
-
-- Employees aged 18–25 who worked overtime recorded an attrition rate of **64.1%**, indicating a high-risk workforce segment that may require targeted retention initiatives.
-
-## Dashboard Features
-
-- Interactive filters and slicers
-- Attrition KPIs
-- Workforce demographic analysis
-- Compensation analysis
-- Job role and department comparisons
-- Employee experience analysis
-- High-risk segment identification
+- Employees aged 18–25 who worked overtime showed a high attrition risk.
+- Attrition varied significantly by department, role, and compensation band.
+- Work-life balance and engagement drivers strongly influenced retention.
 
 ## Dashboard Preview
 
-Add a dashboard screenshot named `dashboard-preview.png` to the repository, then use:
-
-```markdown
-![Employee Attrition Dashboard](dashboard-preview.png)
-```
+![Employee Attrition Dashboard](visuals/Executive_Summary.png)
 
 ## Repository Structure
 
 ```text
-EMPLOYEE_ATTRITION_ANALYSIS/
-├── README.md
+HR-Employee-Attrition-Project/
+├── README.MD
 ├── data/
-│   └── employee-attrition-data.csv
+│   ├── Employee-Attrition.csv
+│   ├── Employee_Attrition_Cleaned.csv
+│   └── ...
 ├── notebooks/
-│   └── employee-attrition-analysis.ipynb
+├── powerbi/
 ├── sql/
-│   └── employee-attrition-analysis.sql
-├── dashboard/
-│   └── Employee-Attrition-Dashboard.pbix
-└── images/
-    └── dashboard-preview.png
+│   └── Employee_Attrition_Analysis.sql
+├── visuals/
+│   ├── Executive_Summary.png
+│   └── ...
+└── README.MD
 ```
-
-> Adjust the filenames and folders above to match the actual repository. Do not upload confidential or personally identifiable employee data.
 
 ## How to Use This Project
 
-1. Clone or download the repository.
-2. Review the Python notebook for data cleaning and exploratory analysis.
-3. Run the SQL script in MySQL to reproduce the workforce analysis.
-4. Open the `.pbix` file in Power BI Desktop.
-5. Use the filters and slicers to explore attrition patterns.
+1. Explore the cleaned and raw employee datasets in the data folder.
+2. Review the Python notebook or SQL analysis for the analytical workflow.
+3. Open the Power BI file in the powerbi folder.
+4. Use the dashboard filters to explore attrition trends by department, role, and demographics.
 
 ## Skills Demonstrated
 
 - Data cleaning and validation
 - Exploratory data analysis
-- SQL querying and analysis
+- SQL querying
 - CTEs and window functions
 - Data modeling
-- DAX measure creation
-- KPI reporting
-- Interactive Power BI dashboard development
-- Business insight communication
+- DAX KPI creation
+- Power BI dashboard development
+- Workforce insights and risk analysis
 
 ## Author
 

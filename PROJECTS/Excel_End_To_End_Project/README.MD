@@ -2,88 +2,78 @@
 
 ## Project Overview
 
-This project presents an interactive sales dashboard built in Microsoft Excel using Superstore data. The dashboard helps users monitor sales performance across regions, product categories, and customer segments through KPIs, charts, and interactive filters.
+This project builds an interactive sales dashboard in Microsoft Excel using Superstore sales data. The goal is to convert raw transactional data into a business-friendly dashboard that helps track performance across regions, categories, customers, and time periods.
 
-## Project Objective
+## Project Objectives
 
-The objective of this project was to transform raw sales data into a clear, interactive dashboard that enables users to:
+- Clean and prepare raw sales data
+- Analyze sales by region, category, and segment
+- Identify trends in revenue and performance over time
+- Create an interactive Excel dashboard
+- Support business decisions with KPI-driven reporting
 
-- Track overall sales performance
-- Compare performance across regions and categories
-- Analyze customer segments
-- Explore yearly sales trends
-- Make data-driven business decisions
-
-## Tools and Techniques
+## Tools and Technologies
 
 - Microsoft Excel
 - Power Query
 - Pivot Tables
 - Pivot Charts
 - Slicers
-- KPI reporting
 - Data cleaning and transformation
-- Data visualization
+- Excel dashboard design
 
 ## Project Workflow
 
-1. Imported the raw Superstore sales data into Excel.
+1. Imported the raw Superstore dataset into Excel.
 2. Cleaned and transformed the data using Power Query.
-3. Checked data types, missing values, and inconsistencies.
-4. Created Pivot Tables to summarize business metrics.
-5. Built Pivot Charts to visualize sales performance.
-6. Added Year and Region slicers for interactive analysis.
-7. Organized the KPIs and charts into a user-friendly dashboard.
+3. Checked missing values, duplicate entries, and data consistency.
+4. Built Pivot Tables to summarize key business metrics.
+5. Created Pivot Charts for sales and category analysis.
+6. Added interactive slicers for Year and Region filtering.
+7. Consolidated KPIs and charts into a polished dashboard.
 
 ## Dashboard Features
 
-- Interactive Year and Region slicers
-- Sales performance overview
-- Regional performance analysis
-- Category-level analysis
-- Customer segment analysis
-- Dynamic Pivot Tables and Pivot Charts
-- KPI cards for quick performance monitoring
+- Year and region slicers
+- Sales overview KPIs
+- Regional performance comparison
+- Category and segment analysis
+- Trend-based visual reporting
+- User-friendly dashboard layout
 
 ## Dashboard Preview
 
-```markdown
-![Superstore Sales Dashboard](dashboard-preview.png)
-```
+![Superstore Sales Dashboard](dashboard/dashboard-preview.png)
 
 ## Repository Structure
 
 ```text
 Excel_End_To_End_Project/
-├── README.md
+├── README.MD
 ├── data/
-│   └── superstore_data.csv
+│   └── Superstore Data.xlsx
 ├── dashboard/
+│   ├── Dashboard.xlsx
 │   └── dashboard-preview.png
-|   └── dashboard.xlsx
-└── images/
-```
-```text
+└── README.MD
 ```
 
-## How to Use the Dashboard
+## How to Use
 
-1. Download `Superstore-Sales-Dashboard.xlsx`.
-2. Open the file in Microsoft Excel.
-3. Enable editing if prompted.
-4. Use the Year and Region slicers to filter the dashboard.
-5. Review the KPIs and charts to compare sales performance.
-6. Use **Data > Refresh All** if the source data has been updated.
+1. Open the Excel workbook in the dashboard folder.
+2. Enable editing if prompted.
+3. Use the slicers to filter by Year and Region.
+4. Review KPIs and charts to compare performance across business dimensions.
+5. Refresh the workbook if the source data changes.
 
 ## Skills Demonstrated
 
-- Data cleaning and transformation
-- Power Query workflow
-- Pivot Table analysis
-- Interactive dashboard development
+- Data cleaning and preparation
+- Power Query transformation
+- Pivot table analysis
+- Interactive dashboard design
 - KPI reporting
-- Business data visualization
-- Sales trend analysis
+- Business visualization in Excel
 
 ## Author
 

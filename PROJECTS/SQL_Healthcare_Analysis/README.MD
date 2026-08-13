@@ -1,122 +1,62 @@
-# 🏥 Healthcare Analysis using SQL & Power BI
+# Healthcare Analysis using SQL & Power BI
 
-## 📌 Project Overview
+## Project Overview
 
-Healthcare Analysis is an end-to-end data analytics project focused on understanding hospital operations, patient demographics, doctor workload, diagnosis patterns, admissions, and hospital performance.
+This project demonstrates a full healthcare analytics workflow using SQL and Power BI. It focuses on patient demographics, hospital admissions, doctor performance, diagnosis trends, and hospital workload to uncover patterns useful for operational and clinical decision-making.
 
-The project uses **MySQL** for database creation, data cleaning, SQL analysis, and business problem solving, followed by **Power BI** for data modeling, DAX calculations, visualization, and interactive dashboard development.
+The project applies database setup, data cleaning, SQL analysis, and Power BI visualization to turn raw healthcare data into actionable business insights.
 
-The project demonstrates the complete analytics workflow:
+## Project Objectives
 
-**Data → Cleaning → SQL Analysis → Business Insights → Power BI Dashboard**
+- Analyze patient and hospital demographics
+- Study doctor performance and workload
+- Measure admission and discharge patterns
+- Review diagnosis trends and high-volume conditions
+- Evaluate length of stay and patient profiles
+- Build a healthcare dashboard for executive review
 
----
+## Tools and Technologies
 
-## 🎯 Objectives
+- MySQL
+- MySQL Workbench
+- SQL
+- Power BI
+- DAX
+- Power Query
+- Excel / CSV datasets
 
-- Analyze patient demographics
-- Evaluate doctor workload and performance
-- Study hospital admission patterns
-- Analyze diagnosis trends
-- Measure hospital stay duration
-- Analyze patient geographic distribution
-- Identify high-volume diagnoses
-- Monitor hospital admissions and discharges
-- Calculate key hospital performance KPIs
-- Build an interactive healthcare analytics dashboard
+## Dataset
 
----
+The project uses the following data sources:
 
-## 🗂 Dataset
+- Patients
+- Admissions
+- Doctors
+- Province Names
 
-The project uses four datasets:
+## SQL Concepts Demonstrated
 
-| Table | Description |
-|---|---|
-| Patients | Patient demographic information |
-| Admissions | Hospital admission records |
-| Doctors | Doctor information |
-| Province_Names | Province reference table |
+- SELECT, WHERE, GROUP BY, HAVING
+- CASE statements and aggregate functions
+- JOINs and subqueries
+- CTEs and window functions
+- ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD
+- Data cleaning and query optimization
 
----
+## Dashboard Preview
 
-## 🛠 Tools & Technologies
+![Healthcare Executive Overview](Images/Ececutive_Overview.png)
 
-- **MySQL**
-- **MySQL Workbench**
-- **Power BI**
-- **DAX**
-- **Power Query**
-- **Excel / CSV**
-- **GitHub**
-
----
-
-## 🧠 SQL Concepts Demonstrated
-
-### SQL Fundamentals
-
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- HAVING
-- CASE
-- Aggregate Functions
-
-### Data Analysis
-
-- INNER JOIN
-- LEFT JOIN
-- Subqueries
-- EXISTS
-- UNION
-- UNION ALL
-
-### Advanced SQL
-
-- Common Table Expressions (CTEs)
-- Recursive CTEs
-- Window Functions
-- ROW_NUMBER
-- RANK
-- DENSE_RANK
-- LAG
-- LEAD
-
-### Database & Optimization
-
-- Database Creation
-- Data Cleaning
-- Data Type Modification
-- Primary Keys
-- Foreign Keys
-- Constraints
-- Indexes
-- Query Optimization
-
-### Business Analytics
-
-- KPI calculations
-- Patient analysis
-- Doctor performance analysis
-- Admission analysis
-- Diagnosis analysis
-- Hospital performance analysis
-
----
-
-## 📂 Project Structure
+## Repository Structure
 
 ```text
-Healthcare_Analysis/
-│
+SQL_Healthcare_Analysis/
+├── README.MD
 ├── Dataset/
 │   ├── admissions.csv
 │   ├── doctors.csv
 │   ├── patients.csv
 │   └── province_names.csv
-│
 ├── SQL/
 │   ├── 01_Database_Setup.sql
 │   ├── 02_Data_Cleaning.sql
@@ -124,15 +64,43 @@ Healthcare_Analysis/
 │   ├── 04_Assignment_Queries.sql
 │   ├── 05_Business_Analysis.sql
 │   └── 06_Advanced_Business_Analysis.sql
-│
 ├── PowerBI/
 │   └── Healthcare_Analysis.pbix
-│
 ├── Images/
-│   ├── Executive_Overview.png
-│   ├── Patient_Analysis.png
+│   ├── Ececutive_Overview.png
+│   ├── Patient_analysis.png
 │   ├── Doctor_Performance.png
 │   ├── Diagnosis_Analysis.png
 │   └── Hospital_Insights.png
-│
-└── README.md
+└── ...
+```
+
+## How to Use This Project
+
+1. Import the data files from the Dataset folder into MySQL.
+2. Run the SQL scripts in sequence to create the database and perform analysis.
+3. Open the Power BI report in the PowerBI folder.
+4. Use the dashboard filters to explore healthcare operations and performance trends.
+
+## Skills Demonstrated
+
+- SQL data analysis
+- Database design and setup
+- Data cleaning and transformation
+- Business KPI calculation
+- Power BI dashboard development
+- DAX and visualization design
+- Healthcare analytics reporting
+
+## Author
+
+**Janaki Ram Vallapu**  
+Data Analyst | SQL | Power BI | Python | Excel
+
+- [LinkedIn](https://www.linkedin.com/in/janakiramvallapu)
+- [GitHub](https://github.com/janakiram-vallapu)
+- [Email](mailto:janakiramvallapu@gmail.com)
+
+## Feedback
+
+Feedback and suggestions are welcome. If you find this project useful, consider giving the repository a star.
