@@ -58,7 +58,7 @@ Stock statuses are visually classified as:
 
 A selected sales record can generate a formatted customer invoice. All sales rows sharing the same invoice number are combined into one invoice.
 
-![Generated Invoice](images/Invoice.png)
+![Generated Invoice](images/Invoice.jpg)
 
 Invoices can be exported automatically as one-page PDF documents.
 
